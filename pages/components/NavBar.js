@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-export default function Footer(){
+export default function NavBar(){
     return(
         <nav className="">
             <div>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg"></img>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PokePython"></img>
                 <h1>Pokedex</h1>
             </div>
             <ul>
