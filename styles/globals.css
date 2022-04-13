@@ -5,3 +5,6 @@
   box-sizing: border-box;
 
 }
+.main-container{
+  min-height:70vh;
+}

@@ -1,8 +1,8 @@
-import NavBar from './Navbar'
 import Footer from './Footer'
-
+import Navbar from './Navbar'
 import Head from 'next/head'
 
+import styles from '../../styles/Navbar.module.css'
 
 export default function Layout({children}){
     return(
@@ -12,7 +12,9 @@ export default function Layout({children}){
                 <title>Pokedex da Shopee</title>
             </Head>
             
-            <main>{children}</main>
+            {/* <Navbar/> */}
+            
+            <main className="main-container">{children}</main>
             <Footer />
         </>
     )

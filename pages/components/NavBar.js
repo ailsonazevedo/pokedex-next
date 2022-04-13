@@ -1,10 +1,18 @@
-import Link from 'next/link';
+import Link from 'next/link'
+import Image from 'next/image'
+
+import styles from '../../styles/Navbar.module.css'
 
 export default function Navbar(){
     return(
-        <nav className="">
-            <div>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PokePython"></img>
+        <nav className={styles.navbar}>
+            <div className={styles.logo}>
+                <Image
+                    src="/images/pycharm-original.svg" 
+                    width="30"
+                    height="30"
+                    alt="PokePython"
+                />
                 <h1>Pokedex</h1>
             </div>
             <ul>
