@@ -5,6 +5,7 @@ import styles from '../../styles/Navbar.module.css'
 
 export default function Navbar(){
     return(
+        <>
         <nav className={styles.navbar}>
             <div className={styles.logo}>
                 <Image
@@ -15,17 +16,21 @@ export default function Navbar(){
                 />
                 <h1>Pokedex</h1>
             </div>
-            <ul>
+            <ul className={styles.link_items}>
                 <li>
-                    <link href="/"><a>Home</a></link>
+                    <link href="/"/>
+                        <a>Home</a>
                 </li>
                 <li>
-                    <link href="/about"><a>Sobre</a></link>
+                    <link href="/about"/>
+                        <a>Sobre</a>
                 </li>
                 <li>
-                    <link href="/contact"><a>Contato</a></link>
+                    <link href="/contact"/>
+                        <a>Contato</a>
                 </li>
             </ul>
         </nav>
+        </>
     )
 }

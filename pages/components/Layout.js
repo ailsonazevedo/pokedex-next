@@ -13,9 +13,11 @@ export default function Layout({children}){
             </Head>
             
             {/* <Navbar/> */}
-            
-            <main className="main-container">{children}</main>
+            <Navbar />
+            <main className="main-container">
+                {children}
+            </main>
             <Footer />
-        </>
+        </> 
     )
 }
