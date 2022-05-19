@@ -12,7 +12,7 @@ export default function Layout({children}){
                 <title>Pokedex da Shopee</title>
             </Head>
             
-            {/* <Navbar/> */}
+            
             <Navbar />
             <main className="main-container">
                 {children}
