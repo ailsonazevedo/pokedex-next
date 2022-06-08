@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import NavBar from "./components/Navbar";
-import about from "./About";
+import about from "../pages/about";
 import Card from "./components/Card";
 
 export async function getStaticProps() {
