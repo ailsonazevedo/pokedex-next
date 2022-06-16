@@ -2,11 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 
 import styles from "../styles/Home.module.css";
-import Footer from "./components/Footer";
-import Layout from "./components/Layout";
-import NavBar from "./components/Navbar";
+import Footer from "../components/Footer";
+import Layout from "../components/Layout";
+import NavBar from "../components/NavBar";
 import about from "../pages/about";
-import Card from "./components/Card";
+import Card from "../components/Card";
 
 export async function getStaticProps() {
   const maxPokemons = 251;
