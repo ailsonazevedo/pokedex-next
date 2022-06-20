@@ -1,5 +1,5 @@
-import Footer from "./Footer";
-import Navbar from "./NavBar";
+import Footer from "../Footer";
+import Navbar from "../NavBar";
 import Head from "next/head";
 
 
