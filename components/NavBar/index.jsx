@@ -29,7 +29,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/contact">
-              <a>Contatc</a>
+              <a>Contact</a>
             </Link>
           </li>
         </ul>
